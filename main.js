@@ -1,1 +1,0 @@
-document.querySelectorAll("[data-carousel]").forEach(s=>{const t=s.querySelector(".track");s.querySelector("[data-prev]").onclick=()=>t.scrollBy({left:-t.clientWidth*.8,behavior:"smooth"});s.querySelector("[data-next]").onclick=()=>t.scrollBy({left:t.clientWidth*.8,behavior:"smooth"})});
