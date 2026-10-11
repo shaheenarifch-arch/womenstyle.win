@@ -1,2 +1,1 @@
-
-document.querySelectorAll('[data-carousel]').forEach(section=>{const track=section.querySelector('.track');section.querySelector('[data-prev]').addEventListener('click',()=>track.scrollBy({left:-track.clientWidth*.8,behavior:'smooth'}));section.querySelector('[data-next]').addEventListener('click',()=>track.scrollBy({left:track.clientWidth*.8,behavior:'smooth'}));});
+document.querySelectorAll("[data-carousel]").forEach(s=>{const t=s.querySelector(".track");s.querySelector("[data-prev]").onclick=()=>t.scrollBy({left:-t.clientWidth*.8,behavior:"smooth"});s.querySelector("[data-next]").onclick=()=>t.scrollBy({left:t.clientWidth*.8,behavior:"smooth"})});
