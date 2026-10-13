@@ -89,3 +89,31 @@ main>section.partner>.container:only-child{max-width:none}
 .content ul{padding-left:1.2rem}
 @media(min-width:761px) and (max-width:1024px){.footer-grid{grid-template-columns:1fr 1fr}}
 @media(max-width:760px){.footer-grid{grid-template-columns:1fr}}
+
+/* ——— Uplift: editorial type, category tiles, refined cards ——— */
+.hero h1,.section-head h2,main h1,.site-footer h2,.brand{font-family:"Didot","Bodoni 72","Bodoni MT","Playfair Display",Georgia,"Times New Roman",serif;letter-spacing:-.015em}
+.hero h1{font-weight:700}
+.section-head h2{font-weight:700}
+.eyebrow{letter-spacing:.2em}
+.cats{padding:34px 0 10px;background:#fff}
+.cat-grid{display:grid;grid-template-columns:repeat(6,1fr);gap:14px}
+.cat{position:relative;isolation:isolate;overflow:hidden;display:flex;align-items:flex-end;aspect-ratio:3/4;border-radius:18px;padding:14px;text-decoration:none;color:#fff;background:#3a2836 center/cover no-repeat;box-shadow:var(--shadow);transition:transform .25s ease,box-shadow .25s ease}
+.cat::before{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(180deg,rgba(36,25,35,0) 40%,rgba(36,25,35,.82) 100%)}
+.cat span{font-weight:800;font-size:1rem;letter-spacing:.01em}
+.cat span::after{content:" →";opacity:0;transition:opacity .2s ease}
+.cat:hover{transform:translateY(-4px);box-shadow:0 22px 44px rgba(54,25,43,.18)}
+.cat:hover span::after{opacity:1}
+.cat-1{background-image:url("https://images.unsplash.com/photo-1506152983158-b4a74a01c721?auto=format&fit=crop&w=600&q=75")}
+.cat-2{background-image:url("https://images.unsplash.com/photo-1580618672591-eb180b1a973f?auto=format&fit=crop&w=600&q=75")}
+.cat-3{background-image:url("https://images.unsplash.com/photo-1535043934128-cf0b28d52f95?auto=format&fit=crop&w=600&q=75")}
+.cat-4{background-image:url("https://images.unsplash.com/photo-1670201203208-055d6d79db4a?auto=format&fit=crop&w=600&q=75")}
+.cat-5{background-image:url("https://images.unsplash.com/photo-1560577938-a5ed9b19fe12?auto=format&fit=crop&w=600&q=75")}
+.cat-6{background-image:url("https://images.unsplash.com/photo-1546877625-cb8c71916608?auto=format&fit=crop&w=600&q=75")}
+.partner:nth-of-type(odd){background:linear-gradient(180deg,#fff,#fff8fa)}
+.creative-link{background:#fff;min-height:220px}
+.creative-card{border-radius:18px}
+.creative-card .card-body .btn{background:var(--ink);border-color:var(--ink);color:#fff}
+.creative-card .card-body .btn:hover{background:var(--rose);border-color:var(--rose)}
+.promo-visual strong{font-family:"Didot","Bodoni 72",Georgia,serif;font-size:1.5rem}
+@media(max-width:1024px){.cat-grid{grid-template-columns:repeat(3,1fr)}}
+@media(max-width:760px){.cats{padding:22px 0 0}.cat-grid{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;gap:10px;padding-bottom:6px}.cat-grid::-webkit-scrollbar{display:none}.cat{flex:0 0 38%;scroll-snap-align:start}}
