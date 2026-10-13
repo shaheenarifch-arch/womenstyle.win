@@ -117,3 +117,20 @@ main>section.partner>.container:only-child{max-width:none}
 .promo-visual strong{font-family:"Didot","Bodoni 72",Georgia,serif;font-size:1.5rem}
 @media(max-width:1024px){.cat-grid{grid-template-columns:repeat(3,1fr)}}
 @media(max-width:760px){.cats{padding:22px 0 0}.cat-grid{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;gap:10px;padding-bottom:6px}.cat-grid::-webkit-scrollbar{display:none}.cat{flex:0 0 38%;scroll-snap-align:start}}
+
+/* ——— Guides & Q&A ——— */
+.lead{font-size:1.15rem;color:var(--muted)}
+.toc{margin:1.5rem 0 2rem;padding:1.1rem 1.3rem;border:1px solid var(--line);border-left:4px solid var(--rose);border-radius:14px;background:var(--soft)}
+.toc ul{margin:.5rem 0 0;padding-left:1.1rem;columns:2;column-gap:2rem}
+.toc li{margin:.25rem 0}
+.guide{padding:2rem 0;border-top:1px solid var(--line)}
+.guide h2{font-family:"Didot","Bodoni 72",Georgia,serif;font-size:clamp(1.5rem,3vw,2rem);margin:0 0 .8rem}
+.guide ol,.guide ul{padding-left:1.2rem}
+.guide li{margin:.5rem 0}
+.guide-cta{display:inline-flex;margin-top:.6rem}
+.faq-list{margin-top:1.5rem}
+.faq-list details{margin:.75rem 0;padding:1rem 1.2rem;border:1px solid var(--line);border-radius:14px;background:#fff;box-shadow:0 6px 18px rgba(54,25,43,.05)}
+.faq-list summary{cursor:pointer;font-weight:800;font-size:1.05rem}
+.faq-list details[open] summary{color:var(--rose)}
+.faq-list details p{margin:.7rem 0 0}
+@media(max-width:600px){.toc ul{columns:1}}
