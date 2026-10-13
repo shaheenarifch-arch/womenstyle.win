@@ -57,3 +57,35 @@ main h1{font-size:clamp(2rem,5vw,3.4rem);line-height:1.05;margin:.4rem 0 1rem;le
 .round{transition:background-color .15s ease,color .15s ease}.round:hover{background:var(--ink);color:#fff}
 .site-footer h2{font-size:1.4rem;margin-top:0}
 @media(prefers-reduced-motion:reduce){*{transition:none!important}}
+
+/* ——— Hero photo ——— */
+.hero-photo{position:relative;isolation:isolate;overflow:hidden;background:#241923;padding:110px 0;min-height:560px;display:flex;align-items:center}
+.hero-photo .hero-bg{position:absolute;inset:0;width:100%;height:100%;max-width:none;object-fit:cover;object-position:center 30%;z-index:-2}
+.hero-photo::before{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(90deg,rgba(36,25,35,.9) 0%,rgba(36,25,35,.7) 45%,rgba(36,25,35,.35) 100%)}
+.hero-photo h1{color:#fff}
+.hero-photo p{color:rgba(255,255,255,.86)}
+.hero-photo .eyebrow{color:#f6b6cd}
+.hero-photo .btn{color:#fff;border-color:rgba(255,255,255,.75)}
+.hero-photo .btn.primary{background:var(--rose);border-color:var(--rose)}
+.hero-photo .btn:hover{background:#fff;color:var(--ink);border-color:#fff}
+.hero-photo .hero-card{background:rgba(255,255,255,.95);backdrop-filter:blur(6px)}
+@media(max-width:760px){.hero-photo{padding:64px 0;min-height:0}.hero-photo::before{background:linear-gradient(180deg,rgba(36,25,35,.78),rgba(36,25,35,.9))}}
+
+/* ——— Carousel: 4 cards per view on desktop, 2 on tablet ——— */
+main>section.partner>.container:only-child{max-width:none}
+@media(min-width:1025px){.track{grid-auto-columns:calc((100% - 3rem) / 4)}}
+@media(min-width:761px) and (max-width:1024px){.track{grid-auto-columns:calc((100% - 1rem) / 2)}}
+.creative-card{min-height:0}
+.creative-card .card-body{padding:.85rem}
+
+/* ——— Footer contact & social ——— */
+.footer-grid{grid-template-columns:1.6fr 1fr 1fr 1.4fr}
+.contact-list a{display:inline-flex;align-items:center;gap:.5rem;text-decoration:none;word-break:break-word}
+.contact-list a:hover span{text-decoration:underline}
+.socials{display:flex;flex-wrap:wrap;gap:.6rem;margin-top:.4rem}
+.social{display:inline-grid;place-items:center;width:40px;height:40px;border-radius:50%;border:1px solid #513d49;color:#f9dbe7;transition:background-color .15s ease,color .15s ease,border-color .15s ease}
+.social:hover{background:var(--rose);border-color:var(--rose);color:#fff}
+.content h2{font-size:1.35rem;margin:2rem 0 .5rem}
+.content ul{padding-left:1.2rem}
+@media(min-width:761px) and (max-width:1024px){.footer-grid{grid-template-columns:1fr 1fr}}
+@media(max-width:760px){.footer-grid{grid-template-columns:1fr}}
