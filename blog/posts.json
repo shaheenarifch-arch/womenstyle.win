@@ -26,5 +26,19 @@
     "google_quality_passed": true,
     "eeat_score": 100,
     "seo_aeo_score": 9.79
+  },
+  {
+    "keyword": "best hair extensions for thin hair growth",
+    "title": "Best Hair Extensions for Thin Hair Growth (Buying Guide)",
+    "description": "Find the best hair extensions for thin hair growth, from body wave to straight bundles. Compare textures, colors, and install tips before you buy.",
+    "file": "best-hair-extensions-for-thin-hair-growth.html",
+    "date": "2026-10-22",
+    "archetype": "best_products",
+    "archetype_confidence": 0.97,
+    "risk_level": "low",
+    "requires_human_review": false,
+    "google_quality_passed": true,
+    "eeat_score": 100,
+    "seo_aeo_score": 9.3
   }
 ]
