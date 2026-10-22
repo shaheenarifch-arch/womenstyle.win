@@ -1,0 +1,25 @@
+{
+  "updated": "2026-10-22",
+  "promos": [
+    {
+      "mid": "50707",
+      "brand": "Ishow Hair",
+      "headline": "Halloween sale: 18% off sitewide",
+      "code": "IS18",
+      "ends": "2026-10-31",
+      "source": "manual",
+      "url": "https://www.awin1.com/cread.php?awinmid=50707&awinaffid=3075433",
+      "id": "50707-is18"
+    },
+    {
+      "mid": "50707",
+      "brand": "Ishow Hair",
+      "headline": "$49 off $269+ or $67 off $369+",
+      "code": "HS",
+      "ends": "2026-10-31",
+      "source": "manual",
+      "url": "https://www.awin1.com/cread.php?awinmid=50707&awinaffid=3075433",
+      "id": "50707-hs"
+    }
+  ]
+}
