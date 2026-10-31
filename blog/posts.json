@@ -48,5 +48,19 @@
     "google_quality_passed": true,
     "eeat_score": 100,
     "seo_aeo_score": 9.3
+  },
+  {
+    "keyword": "Women's fashion complete guide: building a versatile wardrobe",
+    "title": "Women's Fashion Complete Guide: Building a Versatile Wardrobe",
+    "description": "Women's fashion complete guide: building a versatile wardrobe with core pieces, fit tips, color strategy, and smart shopping advice for every season.",
+    "file": "women-s-fashion-complete-guide-building-a-versatile-wardrobe.html",
+    "date": "2026-10-31",
+    "archetype": "authority_guide",
+    "archetype_confidence": 0.88,
+    "risk_level": "low",
+    "requires_human_review": false,
+    "google_quality_passed": true,
+    "eeat_score": 100,
+    "seo_aeo_score": 9.85
   }
 ]
