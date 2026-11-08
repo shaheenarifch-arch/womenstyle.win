@@ -62,5 +62,19 @@
     "google_quality_passed": true,
     "eeat_score": 100,
     "seo_aeo_score": 9.85
+  },
+  {
+    "keyword": "how to style curly wigs without frizz",
+    "title": "How to Style Curly Wigs Without Frizz (Step-by-Step)",
+    "description": "Learn how to style curly wigs without frizz using simple prep, the right products, and techniques that keep curls defined and frizz-free all day long.",
+    "file": "how-to-style-curly-wigs-without-frizz.html",
+    "date": "2026-11-08",
+    "archetype": "how_to",
+    "archetype_confidence": 0.85,
+    "risk_level": "low",
+    "requires_human_review": false,
+    "google_quality_passed": true,
+    "eeat_score": 100,
+    "seo_aeo_score": 9.4
   }
 ]
