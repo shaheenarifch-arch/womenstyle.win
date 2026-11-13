@@ -76,5 +76,19 @@
     "google_quality_passed": true,
     "eeat_score": 100,
     "seo_aeo_score": 9.4
+  },
+  {
+    "keyword": "best tote bags for work",
+    "title": "Best Tote Bags for Work: Top Picks and Buying Tips",
+    "description": "Discover the best tote bags for work, including structured everyday totes and personalized canvas options, plus tips on size, straps, and organization.",
+    "file": "best-tote-bags-for-work.html",
+    "date": "2026-11-13",
+    "archetype": "best_products",
+    "archetype_confidence": 0.97,
+    "risk_level": "low",
+    "requires_human_review": false,
+    "google_quality_passed": true,
+    "eeat_score": 100,
+    "seo_aeo_score": 9.71
   }
 ]
