@@ -90,5 +90,16 @@
     "google_quality_passed": true,
     "eeat_score": 100,
     "seo_aeo_score": 9.71
+  },
+  {
+    "keyword": "winter hair care for women",
+    "title": "Winter Hair Care for Women: Wigs, Extensions & Natural Hair",
+    "description": "Winter hair care for women: stop natural hair, wigs and extensions drying out with a simple routine, a care checklist, static fixes and scalp tips.",
+    "file": "winter-hair-care-for-women-wigs-extensions.html",
+    "date": "2026-11-19",
+    "archetype": "how_to",
+    "archetype_confidence": 0.85,
+    "risk_level": "low",
+    "requires_human_review": false
   }
 ]
